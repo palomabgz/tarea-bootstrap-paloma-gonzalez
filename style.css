@@ -1,5 +1,6 @@
 body {
     background-color: #f6feff;
+    font-family: "Noto Sans TC", sans-serif;
 }
 
 .navbar-brand img {
@@ -13,11 +14,12 @@ body {
 }
 
 .container-fluid {
+    display: flex;
     background-color: #f6feff;
     height: 70px;
     margin: 0;
     padding: 10px;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .btn {
@@ -36,27 +38,34 @@ body {
     
 }
 
-.form-control {
-    height: 35px;
-    font-size: 14px;
-}
-
 .titulo {
-    margin-top: 20px;
-    margin-left: 60px;
-    width: 700px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    color: white;
 }
 
-.titulo h2 {
-    font-family: Arial, Helvetica, sans-serif;
+.titulo h1 {
+    font-family: "Quicksand", sans-serif;
     font-weight: bolder;
+    margin-top: 60px;
 }
 
-    .titulo p {
+.titulo p, h6 {
     font-size: 14px;
+    width: 500px;
 }
+
+.fondo-foto {
+    margin-top: 80px;
+    background: url(FONDO.jpg) no-repeat;
+    background-size: cover;
+    height: 0.5vh;
+    min-height: 300px;
+}
+
 .card {
-    font-size: 14px;
+    font-size: 13px;
     margin: 10px;
     background-color: rgb(255, 165, 165);
     border: none;
@@ -67,13 +76,14 @@ body {
 .cards {
     display: flex;
     flex-direction: row;
-    margin: 20px;
-    justify-content: center;
+    margin-top: 20px;
+    justify-content: space-evenly;
 }
 
 .sizecard {
-    font-size: 14px;
-    margin: 20px;
+    font-size: 13px;
+    padding: 15px;
+    margin: 15px;
     width: 18rem;
     text-align: center;
     background-color: white;
@@ -82,24 +92,51 @@ body {
 }
 
 .sizecard img {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     margin: 20px;
 }
 
 .contenedor {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 14px;
-    margin: 20px;
+    flex-direction: row;
+    font-size: 13px;
+    margin: 50px;
 }
 
-.carousel-inner {
+.table {
+    height: 200px;
+}
+
+.animales {
     display: flex;
     align-items: center;
-    margin: 20px;
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 200px;
 }
 
+.carousel-caption h5 {
+    color: rgb(163, 0, 0);
+}
+
+.cliente {
+    width: 600px;
+    height: 200px;
+}
+
+.form-control {
+    height: 35px;
+    font-size: 13px;
+}
+
+.newsletter {
+    width: 500px;
+    margin: 20px;
+    align-items: center;
+}
+
+.footer-contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
