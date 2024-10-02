@@ -169,27 +169,26 @@ body {
 .newsletter {
     height: 300px;
     background-color: rgb(197, 197, 197);
-    margin: 20px;
+    margin-left: 30px;
     padding: 20px;
     font-size: 13px;
     border-radius: 20px;
 }
 
 .card-img-top {
-    width: 210px;
+    width: 240px;
     height: 100px;
     object-fit: cover;
     padding: 10px;
 }
 
-.noticias {
-    width: 100px;
-    height: 400px;
-    padding: 10px;
+.card-group {
+    padding: 30px;
 }
 
-.card-group {
-    width: 800px;
+.noticias {
+    height: 400px;
+    padding: 10px;
 }
 
 .footer-creador {
